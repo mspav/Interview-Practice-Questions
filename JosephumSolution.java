@@ -7,9 +7,9 @@ import javax.xml.bind.JAXBException;
 public class JosephumSolution {
 
 	public static void main(String[] args) throws IOException, JAXBException {
-		System.out.println(lastRemaining(9));
-		System.out.println(josephus(15,3));	
-		int a[]= {1,4,4,4,5,5,6,6,11,12,12,12,12,15,17,20,21,21};
+		//System.out.println(lastRemaining(9));
+		//System.out.println(josephus(15,3));	
+		int a[]= {1,4,4,4,5,5,7,6,11,12,12,12,13};
 		System.out.println(findmagicIndex(a));
 	}
 	private static int findmagicIndex(int[] a) {
